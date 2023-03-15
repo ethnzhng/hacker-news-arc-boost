@@ -236,7 +236,7 @@ tr .athing {
 .subtext {
   padding-left: 13px;
   padding-top: 4px;
-  padding-bottom: 8px;
+  padding-bottom: 15px;
   font-size: .9rem !important;
 }
 
@@ -295,7 +295,7 @@ form {
 .comment .c00 {
   color: var(--content-lower) !important;
   font-size: 1.1rem;
-  line-height: 1.4rem;
+  line-height: 1.75rem;
   font-family: var(--default-font) !important;
 }
 
