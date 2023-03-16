@@ -4,7 +4,7 @@
   --default-font: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   --secondary-font: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   --primary-color: rgb(255 87 0);
-  --content-lower: rgb(141, 127, 127);
+  --content-lower: rgb(129, 119, 119);
   --body-background: rgb(255, 253, 246);
   --input-background: var(--primary-color);
   --td-color: rgb(130, 130, 130);
@@ -23,8 +23,8 @@
     --default-font: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     --secondary-font: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     --primary-color: rgb(158, 129, 238);
-    --content-lower: rgb(113, 124, 153);
-    --body-background: rgb(40, 41, 46);
+    --content-lower: rgb(175, 175, 185);
+    --body-background: rgb(28, 28, 35);
     --input-background: var(--primary-color);
     --td-color: rgb(130, 130, 130);
     --transparent-bg: rgba(174, 167, 235, 0.13);
@@ -91,8 +91,7 @@ td {
   font-family: var(--default-font) !important;
   font-size: 1.1rem !important;
   color: transparent !important;
-  /* line-height: 12pt !important; */
-  vertical-align: middle;
+  line-height: 12pt !important;
 }
 
 .pagetop a:link {
@@ -108,7 +107,7 @@ td {
   font-family: var(--default-font) !important;
   font-size: 1.1rem !important;
   color: var(--content-lower) !important;
-  line-height: 1.75 !important;
+  line-height: 1.85 !important;
 }
 
 
@@ -116,12 +115,12 @@ td {
 .pagetop .hnname a:visited {
   color: var(--primary-color) !important;
   text-transform: uppercase !important;
-  letter-spacing: .80px !important;
-  font-size: 1.05rem;
-  line-height: auto;
+  letter-spacing: .85px !important;
+  font-size: 1.18rem;
+  line-height: 12pt !important;
   font-weight: 6800;
   /* font-family: var(--secondary-font); */
-  /* vertical-align: middle; */
+  vertical-align: baseline !important;
   /* top: 2px; */
   position: relative;
 }
@@ -189,7 +188,7 @@ tr .athing {
   top: 7px !important;
   left: 3px;
   position: relative;
-  transition: 50ms ease-in-out;
+  transition: 80ms ease-in-out;
 }
 
 .votearrow:hover {
@@ -239,7 +238,7 @@ tr .athing {
 .subtext {
   padding-left: 13px;
   padding-top: 4px;
-  padding-bottom: 15px;
+  padding-bottom: 18px;
   font-size: .9rem !important;
 }
 
@@ -295,10 +294,10 @@ form {
   font-size: .9rem !important;
 }
 
-.comment .c00 {
+.comment, .c00, .c73, .c5a {
   color: var(--content-lower) !important;
   font-size: 1.1rem;
-  line-height: 1.75rem;
+  line-height: 1.88rem;
   font-family: var(--default-font) !important;
 }
 
@@ -325,8 +324,12 @@ form {
   border: none !important;
   background: transparent !important;
   box-shadow: none !important;
-  /* padding: 0px !important; */
+  padding: 0px 11px !important;
 }
+
+/* #hnmain > tbody > tr:nth-child(4) > td > table {
+  display: none;
+} */
 
 .comment-tree .votelinks {
   width: 10px !important;
